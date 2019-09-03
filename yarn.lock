@@ -7236,10 +7236,10 @@ yargs@13.2.4:
     y18n "^4.0.0"
     yargs-parser "^13.1.0"
 
-zarm-vue@^2.0.0-alpha.28:
-  version "2.0.0-alpha.28"
-  resolved "https://registry.yarnpkg.com/zarm-vue/-/zarm-vue-2.0.0-alpha.28.tgz#e4d868a6b9ceda1b823a703b1e91f5b11ca649ae"
-  integrity sha512-zTgJO3mGSVTSN8ognRlMErlWXS6PMwBWB5ty9tLojyG2cCNS7649PRCPjkSxbaYqW05pWHnssesngX8Gt8d9fQ==
+zarm-vue@2.0.0-alpha.30:
+  version "2.0.0-alpha.30"
+  resolved "https://registry.yarnpkg.com/zarm-vue/-/zarm-vue-2.0.0-alpha.30.tgz#2d9b0eaf697d10f17b2e6c62fa1d5613c245c8c5"
+  integrity sha512-E+p61A2c+YNpixBQInoXp+ZrArgbq2SZgtWKcp+hSVSh8sz7EgUI4/NySuPDmeMYPWjXaTAu1WiubfYlaqQauw==
   dependencies:
     autosize "^4.0.0"
     better-scroll "1.12.0"
