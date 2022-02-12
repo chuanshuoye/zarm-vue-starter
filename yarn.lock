@@ -2213,7 +2213,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@^3.0.0, debug@^3.2.5, debug@^3.2.6:
+debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
@@ -2889,11 +2889,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.8.1.tgz#24804f9eaab67160b0e840c085885d606371a35b"
-  integrity sha512-micCIbldHioIegeKs41DoH0KS3AXfFzgS30qVkM6z/XOE/GJgvmsoc839NUqa1B9udYe9dQxgv7KFwng6+p/dw==
-  dependencies:
-    debug "^3.0.0"
+  version "1.14.8"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.8.tgz#016996fb9a11a100566398b1c6839337d7bfa8fc"
+  integrity sha512-1x0S9UVJHsQprFcEC/qnNzBLcIxsjAV905f/UkQxbclCsoTWlacCNOpQa/anodLl2uaEKFhfWOvM2Qg77+15zA==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -4906,6 +4904,11 @@ pkg-dir@^3.0.0:
   integrity sha512-/E57AYkoeQ25qkxMj5PBOVgF8Kiu/h7cYS30Z5+R7WaiCCBfLq58ZI/dSeaEKb9WVJV5n/03QwrN3IeWIFllvw==
   dependencies:
     find-up "^3.0.0"
+
+popper.js@^1.15.0:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
+  integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
 
 portfinder@^1.0.13, portfinder@^1.0.21:
   version "1.0.23"
@@ -7236,11 +7239,12 @@ yargs@13.2.4:
     y18n "^4.0.0"
     yargs-parser "^13.1.0"
 
-zarm-vue@2.0.0-alpha.30:
-  version "2.0.0-alpha.30"
-  resolved "https://registry.yarnpkg.com/zarm-vue/-/zarm-vue-2.0.0-alpha.30.tgz#2d9b0eaf697d10f17b2e6c62fa1d5613c245c8c5"
-  integrity sha512-E+p61A2c+YNpixBQInoXp+ZrArgbq2SZgtWKcp+hSVSh8sz7EgUI4/NySuPDmeMYPWjXaTAu1WiubfYlaqQauw==
+zarm-vue@^2.0.0-alpha.34:
+  version "2.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/zarm-vue/-/zarm-vue-2.0.0-beta.3.tgz#9801db2af32768c9f2e6035fa166cdba571e2d3f"
+  integrity sha512-7ww52i4YM48NkGBitWpMv61xCNdx06eC/3zqW0yRbYpEi2FZ3tkpJjehaZDFPFgT+kjd8DymXLQHi68NTdCK0w==
   dependencies:
     autosize "^4.0.0"
     better-scroll "1.12.0"
     dayjs "^1.7.7"
+    popper.js "^1.15.0"
